@@ -2,7 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'sans - sarif';
+    font-family: 'ubuntu', 'sans - sarif';
+
 }
 
 html{
@@ -67,7 +68,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 15%;
+    margin-top: 20%;
     font-size: 30px;
 }
 
@@ -111,6 +112,8 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: white;
+    margin-bottom: 20px;
+    
 }
 
 .tab-titles{
@@ -143,14 +146,20 @@ nav ul li a:hover::after{
     width:100%;
 }
 
+.tab-contents p{
+    line-height:20px;
+   }
+   
 .tab-contents ul li{
  list-style: none;
  margin:10px 0;
+ line-height:20px;
 }
 
 .tab-contents ul li span{
-   color:#b54769;
-   font-size: 14px;
+   color:#e71c5d;
+   font-size: 16px;
+
    }
 
 .tab-contents{
@@ -178,7 +187,7 @@ nav ul li a:hover::after{
 .services-list div{
     background:#262626;
     padding:40px;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, trasnform 0.5s;
@@ -199,7 +208,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     color:white;
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 16px;
     display: inline-block;
    }
    
@@ -281,7 +290,7 @@ nav ul li a:hover::after{
     margin: 50px auto;
     width: fit-content;
     border:1px solid #ff004f;
-    padding: 14px 50px;
+    padding: 14px 60px;
     border-radius: 6px;
     text-decoration: none;
     color:white;
